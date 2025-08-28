@@ -1,2 +1,2 @@
 # website
-Holder for the website
+Company website
