@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Elektropamet — Applied AI Research & Prototyping</title>
+
+<!-- IBM Plex Sans from Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #fcf0e0;
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+  }
+
+  :root {
+    --banner-height: 160px;
+    --content-max: 900px;
+  }
+
+  /* Banner with pattern + centered logo */
+  .banner {
+    position: relative;
+    width: 100vw;
+    height: var(--banner-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf0e0;
+    background-image: url("pattern.svg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    overflow: hidden;
+  }
+  .banner .logo {
+    position: relative;
+    z-index: 2;
+    max-height: calc(var(--banner-height) * 0.7);
+    width: auto;
+    height: auto;
+  }
+
+  /* Main content */
+  .container {
+    max-width: var(--content-max);
+    margin: 32px auto 80px;
+    padding: 0 20px;
+  }
+
+  h2 {
+    margin: 0 0 8px;
+    font-size: clamp(1.6rem, 2.2vw, 2rem);
+    font-weight: 500;
+  }
+  h3 {
+    margin: 0 0 8px;
+    font-size: clamp(1.2rem, 1.8vw, 1.35rem);
+    font-weight: 500;
+    opacity: 0.9;
+  }
+  p { margin: 0 0 14px; }
+  em { font-style: italic; }
+  strong { font-weight: 700; }
+
+  /* Stamp separator */
+  .stamp {
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: 28px auto;
+    background: center/contain no-repeat url("stamp.svg");
+  }
+
+  ul { margin: 12px 0 14px 20px; padding: 0; }
+  li { margin: 6px 0; }
+
+  .pronounce { font-size: 0.95rem; opacity: 0.9; text-align: center; }
+
+  @media (max-width: 600px) {
+    :root { --banner-height: 125px; }
+    .stamp { width: 52px; height: 52px; margin: 24px auto; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- Banner -->
+  <header class="banner" role="banner" aria-label="Elektropamet">
+    <img class="logo" src="logo.svg" alt="Elektropamet logo">
+  </header>
+
+  <!-- Content -->
+  <main class="container" role="main">
+    <!-- (Markdown converted to HTML) -->
+    <p class="pronounce" align="center"><em>(pronounced eh-LECK-troh-pah-met)</em></p>
+
+    <h2>Applied AI Research &amp; Prototyping Consultancy</h2>
+
+    <p>Hi, I’m <strong>Marko</strong>, Founder &amp; Principal Consultant at <strong>Elektropamet</strong>.</p>
+
+    <p>At <strong>Elektropamet</strong>, I help organizations transform <em>blue-sky AI ideas</em> into <strong>actionable, validated prototypes</strong> that engineering teams can build into real products. My role sits at the intersection of <strong>applied AI research, solution architecture, and technical product discovery</strong>:</p>
+
+    <ul>
+      <li>Translate business wish-lists into clear, scoped technical problems.</li>
+      <li>Explore state-of-the-art research and evaluate possible approaches.</li>
+      <li>Build and connect lightweight prototypes to demonstrate feasibility.</li>
+      <li>Deliver measurable validation metrics that de-risk further investment.</li>
+      <li>Provide a clear hand-off package that technical teams can confidently scale.</li>
+    </ul>
+
+    <div class="stamp" aria-hidden="true"></div>
+
+    <h2>How It Works</h2>
+
+    <p>Think of <strong>Elektropamet</strong> as the <strong>Phase 0 partner</strong> for AI initiatives. Before your engineering team commits months of development time, I design the <strong>blueprint</strong> and test the <strong>critical components</strong>.</p>
+
+    <p>A simple way to picture this is the LEGO analogy:</p>
+
+    <ul>
+      <li><strong>You bring the vision.</strong> (“We’d like to build a castle.”)</li>
+      <li><strong>I survey the available bricks.</strong> (“Here are the AI models, APIs, and techniques we can use.”)</li>
+      <li><strong>I assemble a working mini-model.</strong> (“Here’s a prototype that proves the walls stand, the drawbridge works, and the turrets hold together. All tested with real metrics.”)</li>
+      <li><strong>You decide how big to build.</strong> Once the prototype is validated, your engineering team can scale it into the full product with confidence.</li>
+    </ul>
+
+    <p>In other words: I don’t just theorize; I <strong>test, measure, and deliver clarity</strong>. The result is a validated foundation you can rely on.</p>
+
+    <div class="stamp" aria-hidden="true"></div>
+
+    <h2>Why Work With Elektropamet?</h2>
+
+    <ul>
+      <li><strong>Clarity from Complexity:</strong> Business goals translated into technical roadmaps.</li>
+      <li><strong>De-risked Investment:</strong> Metrics, not promises, drive decisions.</li>
+      <li><strong>Faster Time to Value:</strong> Avoid wasted engineering cycles on unproven approaches.</li>
+      <li><strong>Seamless Handoff:</strong> Documentation and rationale designed for your technical team.</li>
+    </ul>
+
+    <div class="stamp" aria-hidden="true"></div>
+
+    <h2>Let’s Talk</h2>
+
+    <p>If you have a bold AI idea and want to know if it’s possible — and how to get there — <strong>Elektropamet</strong> can give you the answers, the prototypes, and the confidence to move forward.</p>
+  </main>
+
+</body>
+</html>
